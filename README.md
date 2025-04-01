@@ -9,10 +9,15 @@ The API should allow the user to hash a string not exceeding 256 characters cont
 
 
 Follow this prompt and deliver something the user can use! Remember the following important notes:
+
 •	Some questions in this document are very open; therefore, there is no correct answer. 
+
 •	Build your reasoning and present it logically. Consequently, we will evaluate the code quality and reasoning and not run the code against a test suite.
+
 •	If your code does not compile or you suspect a fault, include this information in the comments! 
+
 •	Write your code for an industrial setting. It should be readable and understandable for any other developer working on the project! Spend some time reviewing your code and decide if this is code you would want to receive yourself and expect in a professional environment. Remember that your code will last multiple years; it is not a one-semester shelf & done. Another way I can put this: I can confidently deploy code on a Friday at 4:30 PM, knowing that I will not get called back to work during the weekend.
+
 •	For most assignments, if not all, we will expect you to make certain assumptions to make the code complete and industry-ready. Note these assumptions down; we will ask about them in the interview.
 
 Publish your code to the GitHub repository. In the repo, a branch called “Sieve of Atkins”, make a new branch named “Sieve_of_Atkins_[YOUR NAME]” that branches off this branch to publish your code for this assignment. 
