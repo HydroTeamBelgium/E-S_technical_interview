@@ -14,17 +14,12 @@ The generated code can be found in the GitHub repository in the branch “Login 
 Your job is determining if this is a high-quality, correct response to the prompt! 
  
 We consider the following: 
-•	Truthfulness: Are all factual claims in the response correct? Does the code work, and is it well-written? 
-
-      Examples of claims: "Python is an object-oriented language.", "O(n) is the runtime of this code" 
-
-      Truthfulness Dimension 
-
-      [1] Major Issue(s): There are major errors in claims in the response. Code is not executable or does not provide correct outputs. 
-
-      [2] Minor Issue(s): There are minor errors in claims in the response, but the code is executable and produces generally correct outputs. 
-
-      [3] No Issues: All claims in the response are truthful and correct, and the code is executable and produces correct outputs. 
+- Truthfulness: Are all factual claims in the response correct? Does the code work, and is it well-written? 
+   - Examples of claims: "Python is an object-oriented language.", "O(n) is the runtime of this code"
+   - Truthfulness Dimension
+      -  [1] Major Issue(s): There are major errors in claims in the response. Code is not executable or does not provide correct outputs.
+      -  [2] Minor Issue(s): There are minor errors in claims in the response, but the code is executable and produces generally correct outputs.
+      -  [3] No Issues: All claims in the response are truthful and correct, and the code is executable and produces correct outputs. 
  
 •	Instruction following: Are all the prompt's instructions followed? Does the provided response meet all specifications? 
 o	Instruction Following Dimension 
