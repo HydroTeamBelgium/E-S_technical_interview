@@ -20,10 +20,10 @@ We consider the following:
       -  [1] Major Issue(s): There are major errors in claims in the response. Code is not executable or does not provide correct outputs.
       -  [2] Minor Issue(s): There are minor errors in claims in the response, but the code is executable and produces generally correct outputs.
       -  [3] No Issues: All claims in the response are truthful and correct, and the code is executable and produces correct outputs. 
- 
-•	Instruction following: Are all the prompt's instructions followed? Does the provided response meet all specifications? 
-o	Instruction Following Dimension 
-	[1] Major Issue(s): The response does not address all explicit or reasonably implied asks of the prompt. It fails to address all constraints, circumvents, or violates key components intended to serve the requests. 
-	[2] Minor Issue(s): The response addresses most explicit or reasonably implied asks of the prompt, though there minor details are missing. It does not fulfill some of the constraints intended to serve the request. 
-	[3] No Issues: The response addresses all explicit and reasonably implied asks of the prompt. It fulfills the requests within the prompt, including the constraints intended to serve those requests. 
+- Instruction following: Are all the prompt's instructions followed? Does the provided response meet all specifications?
+   - Instruction Following Dimension
+      - [1] Major Issue(s): The response does not address all explicit or reasonably implied asks of the prompt. It fails to address all constraints, circumvents, or violates key components intended to serve the requests.
+      - [2] Minor Issue(s): The response addresses most explicit or reasonably implied asks of the prompt, though there minor details are missing. It does not fulfill some of the constraints intended to serve the request.
+      - [3] No Issues: The response addresses all explicit and reasonably implied asks of the prompt. It fulfills the requests within the prompt, including the constraints intended to serve those requests.
+        
 These determine the overall quality of the response. 
