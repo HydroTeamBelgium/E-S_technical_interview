@@ -1,4 +1,4 @@
-#Login portal
+# Login Portal
 
 Students used a generative AI bot to generate some code for their project. They used the following prompt:  
 
