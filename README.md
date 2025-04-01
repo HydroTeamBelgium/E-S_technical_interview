@@ -1,4 +1,5 @@
 #Login portal
+
 Students used a generative AI bot to generate some code for their project. They used the following prompt:  
 
 I’m working on some login infrastructure for my application and I want to use Python and Pandas to build it. Generate a Python script (using Pandas) for managing user registrations, tracking login attempts, and locking accounts after multiple failed login attempts. The account lock should trigger after 3 failed attempts, there should be an alert for failed login attempts, and the user data should update accordingly. Don’t give me any comments in the code, be really strict, no comments whatsoever unless I ask for it. 
